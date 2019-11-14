@@ -1,8 +1,8 @@
 from __future__ import absolute_import
 import os
-from pyaudioclassification.feat_extract import parse_audio_files, parse_audio_file
+from audioclassification.feat_extract import parse_audio_files, parse_audio_file
 import numpy as np
-import pyaudioclassification.models
+import audioclassification.models
 from keras.utils import to_categorical
 from keras.optimizers import SGD
 #from models import svm, nn, cnn

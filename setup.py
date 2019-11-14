@@ -4,20 +4,20 @@ def readme():
     with open('README.md') as f:
         return f.read()
 
-setup(name='pyaudioclassification',
+setup(name='audioclassification',
       version='0.1.9',
-      description='Dead simple audio classification',
+      description='A Dead simple audio classification',
       classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.0'
       ],
       keywords='simple audio classification',
-      url='https://github.com/98mprice/pyAudioClassification',
-      author='98mprice',
-      author_email='98mprice@gmail.com',
+      url='https://github.com/puneetkakkar/audio-classification',
+      author='puneetkakkar',
+      author_email='puneetkakkar91@gmail.com',
       license='MIT',
-      packages=['pyaudioclassification'],
+      packages=['audioclassification'],
       install_requires=[
           'numpy',
           'librosa',
